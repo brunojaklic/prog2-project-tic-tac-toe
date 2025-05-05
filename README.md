@@ -1,19 +1,15 @@
-🎮 Iks-Oks (Tic-Tac-Toe)
+"Iks-Oks" je konzolna (CMD) igra za dva igrača, bazirana na klasičnoj igri križić-kružić. Igra se pokreće i igra unutar naredbenog retka (Command Prompt / Terminal), bez grafičkog sučelja.
 
-"Iks-Oks" je jednostavna konzolna igra za dva igrača, osmišljena kao klasična verzija igre Tic-Tac-Toe. Igra omogućuje unos imena igrača, vođenje rezultata i upravljanje rezultatima kroz tekstualni meni.
+👥 Dva igrača unose svoja imena prije početka
 
-🔢 Dva igrača unose svoja imena prije početka igre
+🔁 Mogućnost nastavka igre nakon svake runde
 
-🔄 Mogućnost nastavka igre nakon svake runde
+🏆 Automatsko spremanje rezultata u datoteku rezultati.txt (ime igrača, broj pobjeda, datum i vrijeme)
 
-🏆 Automatsko spremanje rezultata svake partije u datoteku rezultati.txt
+📊 Prikaz ljestvice na kraju igre (sortirano po broju pobjeda)
 
-🕒 Spremanje uključuje datum i vrijeme odigrane partije
+✏️ Izbornik za ažuriranje i brisanje rezultata iz datoteke
 
-📊 Prikaz ljestvice nakon završetka igre, sortirane prema broju pobjeda
+🥇 Pobjednik prethodne runde započinje sljedeću
 
-✏️ Mogućnost ažuriranja ili brisanja rezultata putem izbornika
-
-🔁 Pobjednik prethodne runde započinje novu rundu
-
-❌ Igra traje sve dok igrači ne odluče izaći
+❌ Igra traje dok igrači ne odaberu izlazak
