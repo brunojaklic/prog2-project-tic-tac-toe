@@ -1,8 +1,7 @@
 🎮 Iks-Oks (Tic-Tac-Toe)
-Opis projekta
+
 "Iks-Oks" je jednostavna konzolna igra za dva igrača, osmišljena kao klasična verzija igre Tic-Tac-Toe. Igra omogućuje unos imena igrača, vođenje rezultata i upravljanje rezultatima kroz tekstualni meni.
 
-Značajke
 🔢 Dva igrača unose svoja imena prije početka igre
 
 🔄 Mogućnost nastavka igre nakon svake runde
