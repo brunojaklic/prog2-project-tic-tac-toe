@@ -4,11 +4,11 @@
 
 🔁 Mogućnost nastavka igre nakon svake runde
 
-🏆 Automatsko spremanje rezultata u datoteku rezultati.txt (ime igrača, broj pobjeda, datum i vrijeme)
+🏆 Automatsko spremanje rezultata u datoteku rezultati.txt (ime igrača, broj pobjeda)
 
 📊 Prikaz ljestvice na kraju igre (sortirano po broju pobjeda)
 
-✏️ Izbornik za ažuriranje i brisanje rezultata iz datoteke
+✏️ Izbornik za dodavanje, ažuriranje i brisanje rezultata iz datoteke
 
 🥇 Pobjednik prethodne runde započinje sljedeću
 
