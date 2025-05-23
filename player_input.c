@@ -3,7 +3,7 @@
 
 extern char symbol;
 
-inline bool is_valid_move(const char* board, int position) {
+inline int is_valid_move(const char* board, int position) {
     return position >= 1 && position <= 9 &&
         board[position - 1] != 'X' && board[position - 1] != 'O';
 }

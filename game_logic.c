@@ -1,8 +1,8 @@
 #include "tictactoe.h"
 
-static bool check_line(const char* board, int a, int b, int c, char symbol) {
+static int check_line(const char* board, int a, int b, int c, char symbol) {
     if (a < 0 || b < 0 || c < 0 || a > 8 || b > 8 || c > 8) {
-        return false;
+        return 0;
     }
     return (board[a] == symbol && board[b] == symbol && board[c] == symbol);
 }

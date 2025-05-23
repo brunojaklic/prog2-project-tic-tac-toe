@@ -6,25 +6,24 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <stdbool.h>
 
 typedef enum {
-	PLAYING,
-	X_WON,
-	O_WON,
-	DRAW
+    PLAYING,
+    X_WON,
+    O_WON,
+    DRAW
 } GameState;
 
 typedef enum {
-	MENU_ADD_SCORE = 1,
-	MENU_UPDATE_SCORE,
-	MENU_DELETE_SCORE,
-	MENU_EXIT
+    MENU_ADD_SCORE = 1,
+    MENU_UPDATE_SCORE,
+    MENU_DELETE_SCORE,
+    MENU_EXIT
 } MenuOption;
 
 typedef struct {
-	char name[20];
-	int score;
+    char name[20];
+    int score;
 } player_score;
 
 void display_scores();

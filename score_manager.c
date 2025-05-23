@@ -117,12 +117,12 @@ void update_player_score(const char* player_name, int new_score) {
     }
 
     char line[100];
-    bool updated = false;
+    int updated = 0;
 
     while (fgets(line, sizeof(line), fpointer)) {
         if (line[0] == '-' && strstr(line + 1, player_name)) {
             fprintf(temp_file, "-%s %d\n", player_name, new_score);
-            updated = true;
+            updated = 1;
         }
         else {
             fputs(line, temp_file);
@@ -158,13 +158,13 @@ void delete_player_score(const char* player_name) {
     char line[100];
     char current_name[50];
     int score;
-    bool deleted = false;
+    int deleted = 0;
 
     while (fgets(line, sizeof(line), fpointer)) {
         if (line[0] == '-' && sscanf(line + 1, "%49s %d", current_name, &score) == 2) {
             if (strcmp(current_name, player_name) == 0) {
-                deleted = true;
-                continue; 
+                deleted = 1;
+                continue;
             }
         }
         fputs(line, temp_file);
@@ -181,7 +181,6 @@ void delete_player_score(const char* player_name) {
         remove("temp.txt");
     }
 }
-
 
 int is_name_available(const char* name) {
     FILE* fpointer = fopen(LOG_FILE, "r");
