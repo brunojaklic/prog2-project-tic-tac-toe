@@ -1,7 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "tictactoe.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char symbol = 'X';
 int count;

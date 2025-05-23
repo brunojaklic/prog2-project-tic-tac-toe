@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "tictactoe.h"
 
 void display_board(const char* x) {
